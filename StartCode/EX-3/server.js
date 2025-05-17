@@ -2,7 +2,7 @@
 import express from 'express';
 import courses from './course.js';
 import { requestLogger } from './logger.js';
-import { validateQueryParams } from './validateQuery.js';
+import { validateQueryParams } from '../validateQuery.js';
 import { authenticate } from './auth.js'; // Optional
 
 const app = express();
